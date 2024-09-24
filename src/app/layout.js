@@ -19,17 +19,13 @@ const dmSans = DM_Sans({
   subsets: ["latin"], // Sesuaikan dengan kebutuhan karakter
   variable: "--font-dmsans", // Atur variable CSS
 });
-export const metadata = {
-  title: "Rezi Afrialdi - UI/UX Designer",
-  description:
-    "UI/UX & Web Designer focused on crafting intuitive and seamless user experiences.",
-};
+
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${overusedMedium.variable} ${dmSans.variable} antialiased bg-backgroundGradient`}
+        className={`${overusedMedium.variable} ${dmSans.variable} antialiased bg-backgroundGradient `}
       >
         <Navbar />
         {children}

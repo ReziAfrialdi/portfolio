@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="pb-7 px-4 lg:px-20 relative">
+    <footer className="pb-7 px-4 lg:px-10 xl:px-20 relative">
       <div className="w-full flex justify-between items-center border-b border-tertiary-200 pb-6">
         <Image
           src={"/frame-vi.svg"}
@@ -77,7 +77,7 @@ function Footer() {
         </div>
       </div>
       <div className="w-full relative z-[-1]">
-        <div className="w-[250px] h-[250px] absolute -top-56 -left-4 lg:-left-20">
+        <div className="w-[250px] h-[250px] md:w-[250px] md:h-[250px] absolute -top-56 -left-4 lg:-left-20">
           <Image
             src={"/footer-vi-l.png"}
             width={150}
@@ -86,7 +86,34 @@ function Footer() {
             className="w-full h-full"
           />
         </div>
-        <div className="w-[250px] h-[250px] absolute -top-56 -right-4 lg:-right-20">
+        <div className="w-[250px] h-[250px] md:w-[250px] md:h-[250px] absolute -top-56 -left-4 lg:-left-20">
+          <Image
+            src={"/footer-vi-l.png"}
+            width={150}
+            height={150}
+            quality={100}
+            className="w-full h-full"
+          />
+        </div>
+        <div className="w-[250px] h-[250px] md:w-[250px] md:h-[250px] absolute -top-56 -right-4 lg:-right-20">
+          <Image
+            src={"/footer-vi-r.png"}
+            width={150}
+            height={150}
+            quality={100}
+            className="w-full h-full"
+          />
+        </div>
+        <div className="w-[250px] h-[250px]  md:w-[250px] md:h-[250px] absolute -top-56 -right-4 lg:-right-20">
+          <Image
+            src={"/footer-vi-r.png"}
+            width={150}
+            height={150}
+            quality={100}
+            className="w-full h-full"
+          />
+        </div>
+        <div className="w-[250px] h-[250px]  md:w-[250px] md:h-[250px] absolute -top-56 -right-4 lg:-right-20">
           <Image
             src={"/footer-vi-r.png"}
             width={150}

@@ -5,7 +5,7 @@ export const dataDevelopment = [
       "I have sliced Figma designs into a web application using Python, Flask, HTML, and Tailwind CSS for a website that predicts wind speed. This site utilizes machine learning techniques, specifically the Gated Recurrent Unit (GRU), to analyze historical data and provide accurate wind speed forecasts.",
     full_description:
       "I have sliced Figma designs into a web application using Python, Flask, HTML, and Tailwind CSS for a website that predicts wind speed. This site utilizes machine learning techniques, specifically the Gated Recurrent Unit (GRU), to analyze historical data and provide accurate wind speed forecasts.",
-    category: "Slicing + Develop",
+    category: "Develop",
     thumbnail_img: "/portfolio/development/gru-relu/thumbnail.png",
     brand_logo: "/portfolio/development/gru-relu/brand_logo.svg",
     finish_date: "July 2024",

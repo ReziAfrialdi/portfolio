@@ -7,7 +7,7 @@ const LazyMarquee = lazy(() => import("react-fast-marquee"));
 
 function TaglineSectionLandingpage() {
   return (
-    <section className="mt-12 mb-28 py-6 flex w-full border-t border-b border-tertiary-200 items-center justify-center">
+    <section className="mt-14 py-6 flex w-full border-t border-b border-tertiary-200 items-center justify-center">
       <Suspense
         fallback={<div className="text-transparent">Loading marquee...</div>}
       >

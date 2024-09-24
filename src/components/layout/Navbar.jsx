@@ -36,7 +36,7 @@ function Navbar() {
   }, [showMenu]);
 
   return (
-    <header className="w-full px-4 lg:px-20 py-7">
+    <header className="w-full px-4 lg:px-10 xl:px-20 pt-7">
       <nav className="w-full flex justify-between lg:justify-normal items-center lg:items-start border-t border-b border-tertiary-200">
         <h1
           onClick={() => navigate.push("/")}
