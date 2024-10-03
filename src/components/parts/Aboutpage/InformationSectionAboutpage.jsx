@@ -5,6 +5,7 @@ import React, { useEffect, useState, useRef } from "react";
 import BackroundAboutPage from "./BackroundAboutPage";
 import CertificateAboutPage from "./CertificateAboutPage";
 import { gsap } from "gsap";
+import ToolsAboutPage from "./ToolsAboutPage";
 
 function InformationSectionAboutpage() {
   const [activeTab, setActiveTab] = useState("background");
@@ -28,7 +29,7 @@ function InformationSectionAboutpage() {
   return (
     <section
       ref={infoRef}
-      className="px-4 lg:px-10 xl:px-20 pt-3 lg:pt-14 pb-6 mb-48 flex flex-col md:flex-row items-start gap-16 relative"
+      className="px-4 lg:px-10 xl:px-20 pt-3 lg:pt-14 pb-6  flex flex-col md:flex-row items-start gap-16 relative"
     >
       <div className="w-full md:w-[18.75%] lg:sticky top-0 z-20">
         <h3 className="heading-3 text-text-primary pb-3 border-b border-tertiary-200">
@@ -70,12 +71,12 @@ function InformationSectionAboutpage() {
         </div>
       </div>
       <div id="info" className="w-full md:w-[81.25%] ">
-        <p className="heading-6 md:mt-1 lg:mt-4 text-text-primary pb-3 border-b border-tertiary-200">
-          Info
+        <p className="nav md:mt-1 lg:mt-4 text-text-secondary pb-3 border-b border-tertiary-200">
+          Detail
         </p>
         {activeTab === "background" && <BackroundAboutPage />}
         {activeTab === "certificate" && <CertificateAboutPage />}
-        {activeTab === "tools" && <div className="mt-8">tools</div>}
+        {activeTab === "tools" && <ToolsAboutPage />}
       </div>
     </section>
   );

@@ -12,29 +12,29 @@ function TaglineSectionLandingpage() {
         fallback={<div className="text-transparent">Loading marquee...</div>}
       >
         <LazyMarquee autoFill loop={0}>
-          <div className="flex items-center gap-4 mx-4">
+          <div className="flex items-center gap-2 mr-2">
             <Image
               src={"/prompt-vi.svg"}
               loading="lazy"
-              width={36}
-              height={36}
+              width={12}
+              height={12}
               quality={100}
-              className="w-9 h-9"
+              className="w-3 h-3"
             />
-            <span className="heading-2">
+            <span className="heading-6">
               Bridging Creativity and Technology Through Thoughtful Design.
             </span>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 mr-2">
             <Image
               src={"/frame-vi.svg"}
               loading="lazy"
-              width={36}
-              height={36}
+              width={12}
+              height={12}
               quality={100}
-              className="w-9 h-9"
+              className="w-3 h-3"
             />
-            <span className="heading-2">
+            <span className="heading-6">
               Bridging Creativity and Technology Through Thoughtful Design.
             </span>
           </div>

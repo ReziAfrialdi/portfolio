@@ -1,8 +1,23 @@
-import React from "react";
+"use client";
+import gsap from "gsap";
+import React, { useEffect, useRef } from "react";
 
 function BackroundAboutPage() {
+  const sectionsRef = useRef(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      // Animate opacity from 0 to 1 for each section
+      gsap.fromTo(
+        sectionsRef.current,
+        { opacity: 0 },
+        { opacity: 1, duration: 1.5, ease: "power3.out" }
+      );
+    });
+    return () => ctx.revert();
+  }, []);
   return (
-    <div className="mt-8 flex flex-col gap-6 ">
+    <div ref={sectionsRef} className="mt-8 flex flex-col gap-6 ">
       <div className="border-b border-tertiary-200 pb-6">
         <h5 className="heading-5 text-text-primary">Hi, I'm Rezi Afrialdi</h5>
         <p className="body-1 text-text-secondary mt-2">

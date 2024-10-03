@@ -47,7 +47,7 @@ function Footer() {
               href={"https://instagram.com/rezi.afrialdi"}
               className={`text-tertiary-900 bg-primary-50 px-4 lg:px-2 py-2 h-12 lg:h-8 rounded-lg flex justify-center items-center gap-1 hover:bg-primary-500 hover:text-text-white group cursor-pointer duration-300 ease-in-out transition-all transform hover:rounded-none hover:px-7`}
             >
-              <Instagram className="w-6 h-6 lg:w-4 lg:h-4" />
+              <Instagram className="w-6 h-6 lg:w-4 lg:h-4 text-tertiary-800" />
               <span className="nav hidden group-hover:inline-block transition-all transform translate-x-[-20px] opacity-0 group-hover:translate-x-0 group-hover:opacity-100 group-hover:text-text-white duration-500 ease-in-out">
                 Instagram
               </span>
@@ -58,7 +58,7 @@ function Footer() {
               href={"https://linkedin.com/in/reziafrialdi"}
               className={`text-tertiary-900 bg-primary-50 px-4 lg:px-2 py-2 h-12 lg:h-8 rounded-lg flex justify-center items-center gap-1 hover:bg-primary-500 hover:text-text-white group cursor-pointer duration-300 ease-in-out transition-all transform hover:rounded-none hover:px-7`}
             >
-              <Linkedin className="w-6 h-6 lg:w-4 lg:h-4" />
+              <Linkedin className="w-6 h-6 lg:w-4 lg:h-4 text-tertiary-800" />
               <span className="nav hidden group-hover:inline-block transition-all transform translate-x-[-20px] opacity-0 group-hover:translate-x-0 group-hover:opacity-100 group-hover:text-text-white duration-500 ease-in-out">
                 Linkedin
               </span>
@@ -68,7 +68,7 @@ function Footer() {
               href={"https://github.com/ReziAfrialdi"}
               className={`text-tertiary-900 bg-primary-50 px-4 lg:px-2 py-2 h-12 lg:h-8 rounded-lg flex justify-center items-center gap-1 hover:bg-primary-500 hover:text-text-white group cursor-pointer duration-300 ease-in-out transition-all transform hover:rounded-none hover:px-7`}
             >
-              <Github className="w-6 h-6 lg:w-4 lg:h-4" />
+              <Github className="w-6 h-6 lg:w-4 lg:h-4 text-tertiary-800" />
               <span className="nav hidden group-hover:inline-block transition-all transform translate-x-[-20px] opacity-0 group-hover:translate-x-0 group-hover:opacity-100 group-hover:text-text-white duration-500 ease-in-out">
                 Github
               </span>

@@ -50,7 +50,13 @@ function HeroSectionLandingpage() {
           }
         );
       }
-
+      imageRefs.current.forEach((img, index) => {
+        gsap.fromTo(
+          img,
+          { rotationY: 90, opacity: 0 },
+          { rotationY: 0, opacity: 1, duration: 1, ease: "power3.out" }
+        );
+      });
       // Animasi untuk gambar
       // imageRefs.current.forEach((imageRef, index) => {
       //   gsap.fromTo(

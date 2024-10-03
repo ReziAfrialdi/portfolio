@@ -1,4 +1,5 @@
 import Button from "@/components/ui/Button";
+import Link from "next/link";
 import React from "react";
 
 function CollabSectionLandingpage() {
@@ -9,7 +10,7 @@ function CollabSectionLandingpage() {
         Looking to hire a full-time designer or need{" "}
         <br className="lg:block hidden" /> a freelancer for your next project?
       </p>
-      <Button size="lg" variant="primary">Get in Touch</Button>
+      <Link href={"mailto:rezi.afrialdi46@gmail.com"} target="_blank"><Button size="lg" variant="primary">Get in Touch</Button></Link>
     </section>
   );
 }

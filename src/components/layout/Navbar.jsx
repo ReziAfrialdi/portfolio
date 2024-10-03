@@ -56,7 +56,7 @@ function Navbar() {
             <Link href={"/archive"}>Archive</Link>
           </li>
           <li className="cursor-pointer hover:text-text-secondary ease-in-out transition-all duration-200 transform">
-            <Link href={"/contact"}>Get in Touch</Link>
+            <a href="mailto:rezi.afrialdi46@gmail.com">Get in Touch</a>
           </li>
         </ul>
         <div className="lg:hidden">
@@ -85,9 +85,7 @@ function Navbar() {
               onClick={() => setShowMenu(false)}
               className="cursor-pointer hover:text-text-secondary ease-in-out transition-all duration-200 transform"
             >
-              <Link href={"/"}>
-                Home
-              </Link>
+              <Link href={"/"}>Home</Link>
             </li>
             <li
               onClick={() => setShowMenu(false)}
@@ -105,7 +103,7 @@ function Navbar() {
               onClick={() => setShowMenu(false)}
               className="cursor-pointer hover:text-text-secondary ease-in-out transition-all duration-200 transform"
             >
-              <Link href={"/contact"}>Get in Touch</Link>
+              <a href="mailto:rezi.afrialdi46@gmail.com">Get in Touch</a>
             </li>
           </ul>
           <div className="my-16 py-6 px-4 nav text-xl items-center flex justify-start border-t border-b border-tertiary-200">

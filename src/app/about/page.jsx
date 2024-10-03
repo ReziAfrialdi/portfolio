@@ -1,5 +1,6 @@
 import HeroSectionAboutpage from "@/components/parts/Aboutpage/HeroSectionAboutpage";
 import InformationSectionAboutpage from "@/components/parts/Aboutpage/InformationSectionAboutpage";
+import WorkExperienceSectionAboutPage from "@/components/parts/Aboutpage/WorkExperienceSectionAboutPage";
 import React from "react";
 
 export const metadata = {
@@ -12,6 +13,7 @@ function AboutPage() {
     <>
       <HeroSectionAboutpage />
       <InformationSectionAboutpage />
+      <WorkExperienceSectionAboutPage />
     </>
   );
 }

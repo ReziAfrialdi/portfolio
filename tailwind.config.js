@@ -95,11 +95,11 @@ module.exports = {
             {},
         },
         ".heading-4": {
-          "@apply text-2xl font-medium leading-tight font-overusedMedium text-text-primary":
+          "@apply text-lg lg:text-2xl font-medium leading-tight font-overusedMedium text-text-primary":
             {},
         },
         ".heading-5": {
-          "@apply text-xl font-medium leading-tight font-overusedMedium text-text-primary":
+          "@apply text-base lg:text-xl font-medium leading-tight font-overusedMedium text-text-primary":
             {},
         },
         ".heading-6": {
@@ -139,7 +139,7 @@ module.exports = {
             {},
         },
         ".body-3": {
-          "@apply text-[10px] font-normal leading-[1.4] font-dmsans text-text-secondary":
+          "@apply text-xs font-normal leading-[1.4] font-dmsans text-text-secondary":
             {},
         },
       });

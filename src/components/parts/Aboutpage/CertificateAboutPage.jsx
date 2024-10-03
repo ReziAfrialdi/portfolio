@@ -1,7 +1,9 @@
+"use client";
 import Button from "@/components/ui/Button";
+import gsap from "gsap";
 import { ArrowUpRight } from "iconoir-react";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 const dataCertificate = [
   {
@@ -55,13 +57,26 @@ const dataCertificate = [
 ];
 
 function CertificateAboutPage() {
+  const sectionsRef = useRef(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      // Animate opacity from 0 to 1 for each section
+      gsap.fromTo(
+        sectionsRef.current,
+        { opacity: 0 },
+        { opacity: 1, duration: 1.5, ease: "power3.out" }
+      );
+    });
+    return () => ctx.revert();
+  }, []);
   return (
-    <div className="pt-8 overflow-x-auto">
+    <div ref={sectionsRef} className="pt-8 overflow-x-auto">
       <table className="min-w-full lg:inline-table hidden">
         <tbody>
           {dataCertificate.map((item, idx) => (
             <tr key={idx} className="align-middle">
-              <td className="py-2.5 body-2 text-text-primary w-[18%]">
+              <td className="py-2.5 body-2 text-text-secondary w-[18%]">
                 {item.date}
               </td>
               <td className="py-2.5 heading-5 text-text-primary w-[45%]">

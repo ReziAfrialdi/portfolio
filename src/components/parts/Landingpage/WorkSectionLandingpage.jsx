@@ -53,11 +53,8 @@ function WorkSectionLandingpage() {
   }, [activeTab]); // Re-run the effect when the active tab changes
 
   return (
-    <section
-      ref={sectionRef}
-      className="px-4 lg:px-10 xl:px-20 mt-3 lg:mt-12"
-    >
-      <div className="w-full flex flex-col md:flex-row md:justify-between items-center pb-3 border-b border-tertiary-200">
+    <section ref={sectionRef} className="px-4 lg:px-10 xl:px-20 mt-3 lg:mt-12">
+      <div className="w-full flex flex-col md:flex-row md:justify-between mt-8 md:mt-0 md:items-center pb-3 border-b border-tertiary-200">
         <h3 className="heading-3">My Work</h3>
         <div className="flex items-center gap-2 mt-5 md:mt-0">
           <ButtonTab
